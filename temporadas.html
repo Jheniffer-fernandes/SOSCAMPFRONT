@@ -16,12 +16,12 @@
     >
     <meta 
     name="author" 
-    content="Wellcamp"
+    content="SOSCamp"
     >
-    <title>Wellcamp - Temporadas</title>
-    <link rel="stylesheet" href="../Assets/Css/temporadas.css">
-    <link rel="stylesheet" href="../Assets/Css/padronizado.css">
-    <link rel="stylesheet" href="../Assets/Css/responsivo.css">
+    <title>SOSCamp - Temporadas</title>
+    <link rel="stylesheet" href="temporadas.css">
+    <link rel="stylesheet" href="padronizado.css">
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 <body>
     <div class="container">
@@ -46,54 +46,21 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="../index.html" class="menu-link">Home</a>
+                        <a href="index.html" class="menu-link">Home</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="./acampamento.html" class="menu-link">O acampamento</a>
+                        <a href="temporadas.html" class="menu-link">Temporadas</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="./temporadas.html" class="menu-link">Temporadas</a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a href="./faq.html" class="menu-link">Faq</a>
+                        <a href="faq.html" class="menu-link">Faq</a>
                     </li>
                 </ul>
             </nav>
         </aside>
 
         <main class="main-padrao">
-            <section id="contagem-regressiva" class="section-padrao">
-                <div class="wrapper-content">
-                    <header class="header-padrao">
-                        <h2>Próxima temporada</h2>
-                    </header>
-
-                    <ul>
-                        <li>
-                            <span data-time>00</span>
-                            <div>Dias(s)</div>
-                        </li>
-
-                        <li>
-                            <span data-time>00</span>
-                            <div>Horas(s)</div>
-                        </li>
-
-                        <li>
-                            <span data-time>00</span>
-                            <div>Min(s)</div>
-                        </li>
-                        <li>
-                            <span data-time>00</span>
-                            <div>Seg(s)</div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
             <section id="servicos" class="section-padrao">
                 <div class="wrapper-content">
                     <header class="header-padrao">
@@ -110,7 +77,7 @@
                                     <li>Acesso a 1 palestra</li>
                                     <li>Certificação</li>
                                 </ul>
-                                <button class="btn-padrao">Reservar</button>
+                                <a class="btn-padrao" href = "inscrições.html" >Reservar</a>
                             </div>
                         </div>
 
@@ -123,7 +90,7 @@
                                     <li>Acesso a 3 palestra</li>
                                     <li>Certificação</li>
                                 </ul>
-                                <button class="btn-padrao">Reservar</button>
+                                <a class="btn-padrao" href = "inscrições.html" >Reservar</a>
                             </div>
                         </div>
 
@@ -137,7 +104,7 @@
                                     <li>Certificação</li>
                                     <li>Acesso a eventos exclusivos</li>
                                 </ul>
-                                <button class="btn-padrao">Reservar</button>
+                                <a class="btn-padrao" href = "inscrições.html" >Reservar</a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +120,7 @@
                                     <li>Wi-fi</li>
                                     <li>Projetores para apresentação</li>
                                 </ul>
-                                <button class="btn-padrao">Reservar</button>
+                                <a class="btn-padrao" href = "inscrições.html" >Reservar</a>
                             </div>
                         </div>
 
@@ -167,73 +134,19 @@
                                     <li>Cinema ao ar livre</li>
                                     <li>Historias em volta da fogueira</li>
                                 </ul>
-                                <button class="btn-padrao">Reservar</button>
+                                <a class="btn-padrao" href = "inscrições.html" >Reservar</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="receber-noticias" class="section-padrao">
-                <div class="wrapper-content">
-                    <header class="header-padrao">
-                        <h2>Receba notícias sobre nosso acampamento</h2>
-                    </header>
-
-                    <div class="email-capturar-card">
-                        <figure>
-                            <img src="https://images.unsplash.com/photo-1566125882500-87e10f726cdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="">
-                        </figure>
-                        <div>
-                            <form action="#">
-                                <div id="div-nome">
-                                    <label for="nome">Nome</label>
-                                    <input type="text" id="nome" name="nome">
-                                </div>
-                                
-                                <div id="div-email">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email">
-                                </div>
-                                
-                                <button type="submit" id="abrir-modal">Enviar</button>
-                            </form>
-                            <p>
-                                Ao preencher as informações você estará por dentro de todas as novidades do nosso acampamento.
-                            </p>
-                        </div>
-                    </div>
-                    <div id="modal">
-                        <header id="modal-header">
-                            <div>
-                                <figure>
-                                    <img src="../Assets/Imagens/check-circle-fill.svg" alt="">
-                                </figure>
-                                <span>Email cadastrado</span>
-                            </div>
-
-                            <button id="fechar-modal">
-                                <figure>
-                                    <img src="../Assets/Imagens/x-circle-fill.svg" alt="#">
-                                </figure>
-                            </button>
-                        </header>
-
-                        <div id="msg-agradecimento">
-                            <h3>Obrigado</h3>
-                            <p>agora você receberá todas as nossas notícias de primeira mão.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </section>          
         </main>
 
         <footer>
-            <p>&copy; Todos os direitos reservados - Wellcamp 2022</p>
+            <p>&copy; Todos os direitos reservados - SOSCamp 2023</p>
         </footer>
     </div>
-    <script src="../Assets/Javascript/script.js"></script>
-    <script src="../Assets/Javascript/Countdown.js"></script>
-    <script src="../Assets/Javascript/modal.js"></script>
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
