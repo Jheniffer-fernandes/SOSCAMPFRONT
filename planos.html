@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"
+    >
+    <meta 
+        name="description" 
+        content="Um site de acampamento com foco no público jovem que está ingressando no mercado de trabalho, nosso principal objetivo é criar um acampamento onde o jovem possa se divertir e ao mesmo aprender coisas valiosas para seu desenvolvimento"
+    >
+    <meta 
+    name="keywords" 
+    content="acampamento, mercado de trabalho, soft-skills, desenvolvimento"
+    >
+    <meta 
+    name="author" 
+    content="SOSCamp"
+    >
+    <title>SOSCamp - Temporadas</title>
+    <link rel="stylesheet" href="planos.css">
+    <link rel="stylesheet" href="padronizado.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <div class="container">
+        <button class="hamburguer" tabindex="1" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebarControl" aria-haspopup="true">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </button>
+
+        <header class="banner-container">
+            <figure class="banner-medium">
+                <img class="img-slider"
+                        src="https://i0.wp.com/caminhosmelevem.com/wp-content/uploads/2020/11/Socorro-SP-edit-46.jpg?resize=1000%2C665"
+                        alt="piscinas">
+            </figure>
+            
+            <div class="banner-text">
+                <h1>Fazer parte do melhor acampamento</h1>
+                <p>Faça a sua inscrição para uma temporada conosco</p>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebarControl">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">Home</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="temporadas.html" class="menu-link">Temporadas</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="faq.html" class="menu-link">Faq</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-padrao">
+            <section id="servicos" class="section-padrao">
+                <div class="wrapper-content">
+                    <header class="header-padrao">
+                        <h2>Planos</h2>
+                    </header>
+	<div class="planos">
+		<div class="plano">
+            <div class="servicos-pessoas flex-card">
+                <div class="servicos-item-pessoas flex-card-item">
+                    <header>Básico</header>
+                    <div class="space">
+                        <ul>
+                            <li>7 dias no acampamento</li>
+                            <li>Atividades</li>
+                            <li>Certificação</li>
+                        </ul>
+                        <a class="btn-compra" href = "pagamento.html">R$ 99,90</a>
+                    </div>
+                </div>
+
+                <div class="servicos-item-pessoas flex-card-item">
+                    <header>Padrão</header>
+                    <div class="space">
+                        <ul>
+                            <li>14 dias no acampamento</li>
+                            <li>Atividades</li>
+                            <li>Certificação</li>
+                        </ul>
+                        <a class="btn-compra" href = "pagamento.html">R$ 190,90</a>
+                    </div>
+                </div>
+
+                <div class="servicos-item-pessoas flex-card-item">
+                    <header>Premium</header>
+                    <div class="space">
+                        <ul>
+                            <li>20 dias no acampamento</li>
+                            <li>Atividades</li>
+                            <li>Certificação</li>
+                        </ul>
+                        <a class="btn-compra" href = "pagamento.html">R$ 350,90</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servicos-empresas flex-card">
+                <div class="servicos-item-empresas flex-card-item">
+                    <header>Reunião</header>
+                    <div class="space">
+                        <ul>
+                            <li>Salas adaptadas para reuniões</li>
+                            <li>Serviços de copa</li>
+                            <li>Recepção para convidados</li>
+                            <li>Projetores para apresentação</li>
+                        </ul>
+                        <a class="btn-compra" href = "pagamento.html">R$ 150,90</a>
+                    </div>
+                </div>
+
+                <div class="servicos-item-empresas flex-card-item">
+                    <header>Férias</header>
+                    <div class="space">
+                        <ul>
+                            <li>25 dias de acampamento para você</li>
+                            <li>Trilha com profissionais</li>
+                            <li>Natação</li>
+                            <li>Cinema ao ar livre</li>
+                            <li>Historias em volta da fogueira</li>
+                        </ul>
+                        <a class="btn-compra" href = "pagamento.html">R$ 550,90</a>
+                    </div>
+                </div>
+        </main>
+
+        <footer>
+            <p>&copy; Todos os direitos reservados - SOSCamp 2023</p>
+        </footer>
+    </div>
+
+	<script src="script.js"></script>
+    <script src="modal.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>
